@@ -1,0 +1,196 @@
+[
+    {
+        "name": "Blockset 1",
+        "description": "This is the Blockset 1",
+        "iconlink": "",
+        "features": [
+            {
+                "id": 1,        
+                "name": "Feature 1",
+                "description": "This is Feature 1"
+            },
+            {
+                "id": 2,        
+                "name": "Feature 2",
+                "description": "This is Feature 2"
+            },
+            {
+                "id": 3,        
+                "name": "Feature 3",
+                "description": "This is Feature 3"
+            }
+        ],
+        "safety features": [],
+        "availability features":[],
+        "efficiency features":[],
+        "sustainability features":[],
+        "links":[
+            {
+                "name": "Brochure",
+                "type": 0,
+                "link": "www"
+            },
+            {
+                "name": "Video",
+                "type": 1,
+                "link": "www"
+            },
+            {
+                "name": "PDF",
+                "type": 2,
+                "link": "www"
+            },
+            {
+                "name": "Others",
+                "type": 3,
+                "link": "www"
+            }
+        ],
+        "products":[
+            {
+                "name": "MTZ",
+                "description": "This is MTZ",
+                "features": [
+                    {
+                        "id": 1,        
+                        "name": "Feature 1",
+                        "description": "This is Feature 1"
+                    },
+                    {
+                        "id": 2,        
+                        "name": "Feature 2",
+                        "description": "This is Feature 2"
+                    },
+                    {
+                        "id": 3,        
+                        "name": "Feature 3",
+                        "description": "This is Feature 3"
+                    }
+                ],
+                "safety features": [],
+                "availability features":[],
+                "efficiency features":[],
+                "sustainability features":[],
+                "links":[
+                    {
+                        "name": "Brochure",
+                        "type": 0,
+                        "link": "www"
+                    },
+                    {
+                        "name": "Video",
+                        "type": 1,
+                        "link": "www"
+                    },
+                    {
+                        "name": "PDF",
+                        "type": 2,
+                        "link": "www"
+                    },
+                    {
+                        "name": "Others",
+                        "type": 3,
+                        "link": "www"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Blockset 2",
+        "description": "This is the Blockset 2",
+        "iconlink": "",
+        "features": [
+            {
+                "id": 1,        
+                "name": "Feature 1",
+                "description": "This is Feature 1"
+            },
+            {
+                "id": 2,        
+                "name": "Feature 2",
+                "description": "This is Feature 2"
+            },
+            {
+                "id": 3,        
+                "name": "Feature 3",
+                "description": "This is Feature 3"
+            }
+        ],
+        "safety features": [],
+        "availability features":[],
+        "efficiency features":[],
+        "sustainability features":[],
+        "links":[
+            {
+                "name": "Brochure",
+                "type": 0,
+                "link": "www"
+            },
+            {
+                "name": "Video",
+                "type": 1,
+                "link": "www"
+            },
+            {
+                "name": "PDF",
+                "type": 2,
+                "link": "www"
+            },
+            {
+                "name": "Others",
+                "type": 3,
+                "link": "www"
+            }
+        ],
+        "products":[
+            {
+                "name": "NW 8",
+                "description": "This is NW 8",
+                "features": [
+                    {
+                        "id": 1,        
+                        "name": "Feature 1",
+                        "description": "This is Feature 1"
+                    },
+                    {
+                        "id": 2,        
+                        "name": "Feature 2",
+                        "description": "This is Feature 2"
+                    },
+                    {
+                        "id": 3,        
+                        "name": "Feature 3",
+                        "description": "This is Feature 3"
+                    }
+                ],
+                "safety features": [],
+                "availability features":[],
+                "efficiency features":[],
+                "sustainability features":[],
+                "links":[
+                    {
+                        "name": "Brochure",
+                        "type": 0,
+                        "link": "www"
+                    },
+                    {
+                        "name": "Video",
+                        "type": 1,
+                        "link": "www"
+                    },
+                    {
+                        "name": "PDF",
+                        "type": 2,
+                        "link": "www"
+                    },
+                    {
+                        "name": "Others",
+                        "type": 3,
+                        "link": "www"
+                    }
+                ]
+            }
+        ]
+    }
+]

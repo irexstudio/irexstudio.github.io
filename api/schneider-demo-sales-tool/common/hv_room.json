@@ -1,0 +1,240 @@
+[
+    {
+        "name": "PIX Easy",
+        "description": "This is the PIX Easy",
+        "iconlink": "",
+        "features": [
+            {
+                "id": 1,        
+                "name": "Feature 1",
+                "description": "This is Feature 1"
+            },
+            {
+                "id": 2,        
+                "name": "Feature 2",
+                "description": "This is Feature 2"
+            },
+            {
+                "id": 3,        
+                "name": "Feature 3",
+                "description": "This is Feature 3"
+            }
+        ],
+        "safety features": [],
+        "availability features":[],
+        "efficiency features":[],
+        "sustainability features":[],
+        "links":[
+            {
+                "name": "Brochure",
+                "type": 0,
+                "link": "www"
+            },
+            {
+                "name": "Video",
+                "type": 1,
+                "link": "www"
+            },
+            {
+                "name": "PDF",
+                "type": 2,
+                "link": "www"
+            },
+            {
+                "name": "Others",
+                "type": 3,
+                "link": "www"
+            }
+        ],
+        "products":[
+            {
+                "name": "ARC flash relay",
+                "description": "This is ARC flash relay",
+                "features": [
+                    {
+                        "id": 1,        
+                        "name": "Feature 1",
+                        "description": "This is Feature 1"
+                    },
+                    {
+                        "id": 2,        
+                        "name": "Feature 2",
+                        "description": "This is Feature 2"
+                    },
+                    {
+                        "id": 3,        
+                        "name": "Feature 3",
+                        "description": "This is Feature 3"
+                    }
+                ],
+                "safety features": [],
+                "availability features":[],
+                "efficiency features":[],
+                "sustainability features":[],
+                "links":[
+                    {
+                        "name": "Brochure",
+                        "type": 0,
+                        "link": "www"
+                    },
+                    {
+                        "name": "Video",
+                        "type": 1,
+                        "link": "www"
+                    },
+                    {
+                        "name": "PDF",
+                        "type": 2,
+                        "link": "www"
+                    },
+                    {
+                        "name": "Others",
+                        "type": 3,
+                        "link": "www"
+                    }
+                ]
+            },
+            {
+                "name": "Easypact exe",
+                "description": "This is Easypact exe",
+                "features": [
+                    {
+                        "id": 1,        
+                        "name": "Feature 1",
+                        "description": "This is Feature 1"
+                    },
+                    {
+                        "id": 2,        
+                        "name": "Feature 2",
+                        "description": "This is Feature 2"
+                    },
+                    {
+                        "id": 3,        
+                        "name": "Feature 3",
+                        "description": "This is Feature 3"
+                    }
+                ],
+                "safety features": [],
+                "availability features":[],
+                "efficiency features":[],
+                "sustainability features":[],
+                "links":[
+                    {
+                        "name": "Brochure",
+                        "type": 0,
+                        "link": "www"
+                    },
+                    {
+                        "name": "Video",
+                        "type": 1,
+                        "link": "www"
+                    },
+                    {
+                        "name": "PDF",
+                        "type": 2,
+                        "link": "www"
+                    },
+                    {
+                        "name": "Others",
+                        "type": 3,
+                        "link": "www"
+                    }
+                ]
+            },
+            {
+                "name": "Climate sensor",
+                "description": "This is Climate sensor",
+                "features": [
+                    {
+                        "id": 1,        
+                        "name": "Feature 1",
+                        "description": "This is Feature 1"
+                    },
+                    {
+                        "id": 2,        
+                        "name": "Feature 2",
+                        "description": "This is Feature 2"
+                    },
+                    {
+                        "id": 3,        
+                        "name": "Feature 3",
+                        "description": "This is Feature 3"
+                    }
+                ],
+                "safety features": [],
+                "availability features":[],
+                "efficiency features":[],
+                "sustainability features":[],
+                "links":[
+                    {
+                        "name": "Brochure",
+                        "type": 0,
+                        "link": "www"
+                    },
+                    {
+                        "name": "Video",
+                        "type": 1,
+                        "link": "www"
+                    },
+                    {
+                        "name": "PDF",
+                        "type": 2,
+                        "link": "www"
+                    },
+                    {
+                        "name": "Others",
+                        "type": 3,
+                        "link": "www"
+                    }
+                ]
+            },
+            {
+                "name": "Thermal sensor",
+                "description": "This is Thermal sensor",
+                "features": [
+                    {
+                        "id": 1,        
+                        "name": "Feature 1",
+                        "description": "This is Feature 1"
+                    },
+                    {
+                        "id": 2,        
+                        "name": "Feature 2",
+                        "description": "This is Feature 2"
+                    },
+                    {
+                        "id": 3,        
+                        "name": "Feature 3",
+                        "description": "This is Feature 3"
+                    }
+                ],
+                "safety features": [],
+                "availability features":[],
+                "efficiency features":[],
+                "sustainability features":[],
+                "links":[
+                    {
+                        "name": "Brochure",
+                        "type": 0,
+                        "link": "www"
+                    },
+                    {
+                        "name": "Video",
+                        "type": 1,
+                        "link": "www"
+                    },
+                    {
+                        "name": "PDF",
+                        "type": 2,
+                        "link": "www"
+                    },
+                    {
+                        "name": "Others",
+                        "type": 3,
+                        "link": "www"
+                    }
+                ]
+            }
+        ]
+    }
+]

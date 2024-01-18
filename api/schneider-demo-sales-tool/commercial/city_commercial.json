@@ -1,0 +1,591 @@
+[
+    {
+        "name": "Commercial",
+        "description": "This is the Commercial",
+        "iconlink": "",
+        "features": [
+            {
+                "id": 1,        
+                "name": "Feature 1",
+                "description": "This is Feature 1"
+            },
+            {
+                "id": 2,        
+                "name": "Feature 2",
+                "description": "This is Feature 2"
+            },
+            {
+                "id": 3,        
+                "name": "Feature 3",
+                "description": "This is Feature 3"
+            }
+        ],
+        "safety features": [],
+        "availability features":[],
+        "efficiency features":[],
+        "sustainability features":[],
+        "links":[
+            {
+                "name": "Brochure",
+                "type": 0,
+                "link": "www"
+            },
+            {
+                "name": "Video",
+                "type": 1,
+                "link": "www"
+            },
+            {
+                "name": "PDF",
+                "type": 2,
+                "link": "www"
+            },
+            {
+                "name": "Others",
+                "type": 3,
+                "link": "www"
+            }
+        ],
+        "products":[]
+    },
+    {
+        "name": "RMU",
+        "description": "This is the RMU",
+        "iconlink": "",
+        "features": [
+            {
+                "id": 1,        
+                "name": "Feature 1",
+                "description": "This is Feature 1"
+            },
+            {
+                "id": 2,        
+                "name": "Feature 2",
+                "description": "This is Feature 2"
+            },
+            {
+                "id": 3,        
+                "name": "Feature 3",
+                "description": "This is Feature 3"
+            }
+        ],
+        "safety features": [],
+        "availability features":[],
+        "efficiency features":[],
+        "sustainability features":[],
+        "links":[
+            {
+                "name": "Brochure",
+                "type": 0,
+                "link": "www"
+            },
+            {
+                "name": "Video",
+                "type": 1,
+                "link": "www"
+            },
+            {
+                "name": "PDF",
+                "type": 2,
+                "link": "www"
+            },
+            {
+                "name": "Others",
+                "type": 3,
+                "link": "www"
+            }
+        ],
+        "products":[]
+    },
+    {
+        "name": "HV Room",
+        "description": "This is the HV Room",
+        "iconlink": "",
+        "features": [
+            {
+                "id": 1,        
+                "name": "Feature 1",
+                "description": "This is Feature 1"
+            },
+            {
+                "id": 2,        
+                "name": "Feature 2",
+                "description": "This is Feature 2"
+            },
+            {
+                "id": 3,        
+                "name": "Feature 3",
+                "description": "This is Feature 3"
+            }
+        ],
+        "safety features": [],
+        "availability features":[],
+        "efficiency features":[],
+        "sustainability features":[],
+        "links":[
+            {
+                "name": "Brochure",
+                "type": 0,
+                "link": "www"
+            },
+            {
+                "name": "Video",
+                "type": 1,
+                "link": "www"
+            },
+            {
+                "name": "PDF",
+                "type": 2,
+                "link": "www"
+            },
+            {
+                "name": "Others",
+                "type": 3,
+                "link": "www"
+            }
+        ],
+        "products":[]
+    },
+    {
+        "name": "Transfer Yard",
+        "description": "This is the Transfer Yard",
+        "iconlink": "",
+        "features": [
+            {
+                "id": 1,        
+                "name": "Feature 1",
+                "description": "This is Feature 1"
+            },
+            {
+                "id": 2,        
+                "name": "Feature 2",
+                "description": "This is Feature 2"
+            },
+            {
+                "id": 3,        
+                "name": "Feature 3",
+                "description": "This is Feature 3"
+            }
+        ],
+        "safety features": [],
+        "availability features":[],
+        "efficiency features":[],
+        "sustainability features":[],
+        "links":[
+            {
+                "name": "Brochure",
+                "type": 0,
+                "link": "www"
+            },
+            {
+                "name": "Video",
+                "type": 1,
+                "link": "www"
+            },
+            {
+                "name": "PDF",
+                "type": 2,
+                "link": "www"
+            },
+            {
+                "name": "Others",
+                "type": 3,
+                "link": "www"
+            }
+        ],
+        "products":[]
+    },
+    {
+        "name": "Isolation Room",
+        "description": "This is the Isolation Room",
+        "iconlink": "",
+        "features": [
+            {
+                "id": 1,        
+                "name": "Feature 1",
+                "description": "This is Feature 1"
+            },
+            {
+                "id": 2,        
+                "name": "Feature 2",
+                "description": "This is Feature 2"
+            },
+            {
+                "id": 3,        
+                "name": "Feature 3",
+                "description": "This is Feature 3"
+            }
+        ],
+        "safety features": [],
+        "availability features":[],
+        "efficiency features":[],
+        "sustainability features":[],
+        "links":[
+            {
+                "name": "Brochure",
+                "type": 0,
+                "link": "www"
+            },
+            {
+                "name": "Video",
+                "type": 1,
+                "link": "www"
+            },
+            {
+                "name": "PDF",
+                "type": 2,
+                "link": "www"
+            },
+            {
+                "name": "Others",
+                "type": 3,
+                "link": "www"
+            }
+        ],
+        "products":[]
+    },
+    {
+        "name": "Main LT",
+        "description": "This is the Main LT",
+        "iconlink": "",
+        "features": [
+            {
+                "id": 1,        
+                "name": "Feature 1",
+                "description": "This is Feature 1"
+            },
+            {
+                "id": 2,        
+                "name": "Feature 2",
+                "description": "This is Feature 2"
+            },
+            {
+                "id": 3,        
+                "name": "Feature 3",
+                "description": "This is Feature 3"
+            }
+        ],
+        "safety features": [],
+        "availability features":[],
+        "efficiency features":[],
+        "sustainability features":[],
+        "links":[
+            {
+                "name": "Brochure",
+                "type": 0,
+                "link": "www"
+            },
+            {
+                "name": "Video",
+                "type": 1,
+                "link": "www"
+            },
+            {
+                "name": "PDF",
+                "type": 2,
+                "link": "www"
+            },
+            {
+                "name": "Others",
+                "type": 3,
+                "link": "www"
+            }
+        ],
+        "products":[]
+    },
+    {
+        "name": "SubLT",
+        "description": "This is the SubLT",
+        "iconlink": "",
+        "features": [
+            {
+                "id": 1,        
+                "name": "Feature 1",
+                "description": "This is Feature 1"
+            },
+            {
+                "id": 2,        
+                "name": "Feature 2",
+                "description": "This is Feature 2"
+            },
+            {
+                "id": 3,        
+                "name": "Feature 3",
+                "description": "This is Feature 3"
+            }
+        ],
+        "safety features": [],
+        "availability features":[],
+        "efficiency features":[],
+        "sustainability features":[],
+        "links":[
+            {
+                "name": "Brochure",
+                "type": 0,
+                "link": "www"
+            },
+            {
+                "name": "Video",
+                "type": 1,
+                "link": "www"
+            },
+            {
+                "name": "PDF",
+                "type": 2,
+                "link": "www"
+            },
+            {
+                "name": "Others",
+                "type": 3,
+                "link": "www"
+            }
+        ],
+        "products":[]
+    },
+    {
+        "name": "Rising main",
+        "description": "This is the Rising main",
+        "iconlink": "",
+        "features": [
+            {
+                "id": 1,        
+                "name": "Feature 1",
+                "description": "This is Feature 1"
+            },
+            {
+                "id": 2,        
+                "name": "Feature 2",
+                "description": "This is Feature 2"
+            },
+            {
+                "id": 3,        
+                "name": "Feature 3",
+                "description": "This is Feature 3"
+            }
+        ],
+        "safety features": [],
+        "availability features":[],
+        "efficiency features":[],
+        "sustainability features":[],
+        "links":[
+            {
+                "name": "Brochure",
+                "type": 0,
+                "link": "www"
+            },
+            {
+                "name": "Video",
+                "type": 1,
+                "link": "www"
+            },
+            {
+                "name": "PDF",
+                "type": 2,
+                "link": "www"
+            },
+            {
+                "name": "Others",
+                "type": 3,
+                "link": "www"
+            }
+        ],
+        "products":[]
+    },
+    {
+        "name": "Office EB Room",
+        "description": "This is the Office EB Room",
+        "iconlink": "",
+        "features": [
+            {
+                "id": 1,        
+                "name": "Feature 1",
+                "description": "This is Feature 1"
+            },
+            {
+                "id": 2,        
+                "name": "Feature 2",
+                "description": "This is Feature 2"
+            },
+            {
+                "id": 3,        
+                "name": "Feature 3",
+                "description": "This is Feature 3"
+            }
+        ],
+        "safety features": [],
+        "availability features":[],
+        "efficiency features":[],
+        "sustainability features":[],
+        "links":[
+            {
+                "name": "Brochure",
+                "type": 0,
+                "link": "www"
+            },
+            {
+                "name": "Video",
+                "type": 1,
+                "link": "www"
+            },
+            {
+                "name": "PDF",
+                "type": 2,
+                "link": "www"
+            },
+            {
+                "name": "Others",
+                "type": 3,
+                "link": "www"
+            }
+        ],
+        "products":[]
+    },
+    {
+        "name": "Office",
+        "description": "This is the Office",
+        "iconlink": "",
+        "features": [
+            {
+                "id": 1,        
+                "name": "Feature 1",
+                "description": "This is Feature 1"
+            },
+            {
+                "id": 2,        
+                "name": "Feature 2",
+                "description": "This is Feature 2"
+            },
+            {
+                "id": 3,        
+                "name": "Feature 3",
+                "description": "This is Feature 3"
+            }
+        ],
+        "safety features": [],
+        "availability features":[],
+        "efficiency features":[],
+        "sustainability features":[],
+        "links":[
+            {
+                "name": "Brochure",
+                "type": 0,
+                "link": "www"
+            },
+            {
+                "name": "Video",
+                "type": 1,
+                "link": "www"
+            },
+            {
+                "name": "PDF",
+                "type": 2,
+                "link": "www"
+            },
+            {
+                "name": "Others",
+                "type": 3,
+                "link": "www"
+            }
+        ],
+        "products":[]
+    },
+    {
+        "name": "Data centre EB room",
+        "description": "This is the Data centre EB room",
+        "iconlink": "",
+        "features": [
+            {
+                "id": 1,        
+                "name": "Feature 1",
+                "description": "This is Feature 1"
+            },
+            {
+                "id": 2,        
+                "name": "Feature 2",
+                "description": "This is Feature 2"
+            },
+            {
+                "id": 3,        
+                "name": "Feature 3",
+                "description": "This is Feature 3"
+            }
+        ],
+        "safety features": [],
+        "availability features":[],
+        "efficiency features":[],
+        "sustainability features":[],
+        "links":[
+            {
+                "name": "Brochure",
+                "type": 0,
+                "link": "www"
+            },
+            {
+                "name": "Video",
+                "type": 1,
+                "link": "www"
+            },
+            {
+                "name": "PDF",
+                "type": 2,
+                "link": "www"
+            },
+            {
+                "name": "Others",
+                "type": 3,
+                "link": "www"
+            }
+        ],
+        "products":[]
+    },
+    {
+        "name": "Data centre",
+        "description": "This is the Data centre",
+        "iconlink": "",
+        "features": [
+            {
+                "id": 1,        
+                "name": "Feature 1",
+                "description": "This is Feature 1"
+            },
+            {
+                "id": 2,        
+                "name": "Feature 2",
+                "description": "This is Feature 2"
+            },
+            {
+                "id": 3,        
+                "name": "Feature 3",
+                "description": "This is Feature 3"
+            }
+        ],
+        "safety features": [],
+        "availability features":[],
+        "efficiency features":[],
+        "sustainability features":[],
+        "links":[
+            {
+                "name": "Brochure",
+                "type": 0,
+                "link": "www"
+            },
+            {
+                "name": "Video",
+                "type": 1,
+                "link": "www"
+            },
+            {
+                "name": "PDF",
+                "type": 2,
+                "link": "www"
+            },
+            {
+                "name": "Others",
+                "type": 3,
+                "link": "www"
+            }
+        ],
+        "products":[]
+    }
+    
+]
