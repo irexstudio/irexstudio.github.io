@@ -793,17 +793,17 @@
         "features": [
             {
                 "id": 1,        
-                "name": "Feature 1",
+                "name": "NW 3 Pole",
                 "description": "This is Feature 1"
             },
             {
                 "id": 2,        
-                "name": "Feature 2",
+                "name": "IFE",
                 "description": "This is Feature 2"
             },
             {
                 "id": 3,        
-                "name": "Feature 3",
+                "name": "PAS",
                 "description": "This is Feature 3"
             }
         ],
@@ -840,17 +840,32 @@
                 "features": [
                     {
                         "id": 1,        
-                        "name": "Feature 1",
+                        "name": "Trip Unit",
                         "description": "This is Feature 1"
                     },
                     {
                         "id": 2,        
-                        "name": "Feature 2",
+                        "name": "Craddle button and Indication",
                         "description": "This is Feature 2"
                     },
                     {
                         "id": 3,        
-                        "name": "Feature 3",
+                        "name": "Rack Out Product",
+                        "description": "This is Feature 3"
+                    },
+                    {
+                        "id": 4,        
+                        "name": "BCM Module, ULP cord",
+                        "description": "This is Feature 3"
+                    },
+                    {
+                        "id": 5,        
+                        "name": "Rogowski CT",
+                        "description": "This is Feature 3"
+                    },
+                    {
+                        "id": 6,        
+                        "name": "Terminal Adaptors",
                         "description": "This is Feature 3"
                     }
                 ],
@@ -862,17 +877,17 @@
                     {
                         "name": "Brochure",
                         "type": 0,
-                        "link": "www"
+                        "link": "https://www.google.com/"
                     },
                     {
                         "name": "Video",
                         "type": 1,
-                        "link": "www"
+                        "link": "https://www.youtube.com/"
                     },
                     {
                         "name": "PDF",
                         "type": 2,
-                        "link": "www"
+                        "link": "https://amazon.com"
                     },
                     {
                         "name": "Others",
