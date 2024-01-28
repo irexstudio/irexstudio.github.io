@@ -865,6 +865,11 @@
                     },
                     {
                         "id": 6,        
+                        "name": "Patented Arc Chutes",
+                        "description": "This is Feature 3"
+                    },
+                    {
+                        "id": 7,        
                         "name": "Terminal Adaptors",
                         "description": "This is Feature 3"
                     }
