@@ -1,61 +1,168 @@
-var ksaCities = [
-    "Riyadh", "Jeddah", "Mecca", "Medina", "Dammam", "Khobar", "Abha", "Jizan", "Taif",
-    "Tabuk", "Buraidah", "Hail", "Najran", "Khamis Mushait", "Al Qatif", "Jubail", "Yanbu",
-    "Al Hofuf", "Al Mubarraz", "Al Kharj", "Hafar Al-Batin", "Sakaka", "Arar", "Al Bahah", "Dhahran"
-    // Add more cities as needed
-];
+document.addEventListener('DOMContentLoaded', function () {
+    function fetchCountries() {
+        var countryDropdown = document.getElementById("countryDropdown");
 
-// Function to populate the dropdown with KSA cities
-function populateCityDropdown() {
-    var cityDropdown = document.getElementById("cityDropdown");
-
-    // Clear existing options
-    cityDropdown.innerHTML = '<option value="">Select a City</option>';
-
-    // Add options for each city in the array
-    for (var i = 0; i < ksaCities.length; i++) {
-        var option = document.createElement("option");
-        option.value = ksaCities[i];
-        option.text = ksaCities[i];
-        cityDropdown.appendChild(option);
-    }
-}
-
-// Call the function to populate the dropdown on page load
-window.onload = populateCityDropdown;
-
-function validateForm() {
-    var name = document.querySelector("input[name='Name']").value;
-    var age = document.querySelector("input[name='Age']").value;
-    var phone = document.querySelector("input[name='Phone']").value;
-    var email = document.querySelector("input[name='Email']").value;
-    var city = document.querySelector("select[name='City']").value;
-
-    // Basic validation
-    if (name === "" || age === "" || phone === "" || email === "" || city === "") {
-        alert("Please fill in all the required fields.");
-        return false;
-    }
-    return true;
-}
-
-const scriptURL = 'https://script.google.com/macros/s/AKfycbxwDHpVrmeyQ2mdQQJN6LFI7c4BjkrguuBxifVK-9FHptgybj6dxpZMHtxULs6_tUyn/exec'
-
-const form = document.forms['contact-form']
-
-form.addEventListener('submit', e => {
-    e.preventDefault();
-
-    if (validateForm()) {
-        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        fetch("https://api.countrystatecity.in/v1/countries", {
+            headers: {
+                'X-CSCAPI-KEY': 'NHhvOEcyWk50N2Vna3VFTE00bFp3MjFKR0ZEOUhkZlg4RTk1MlJlaA==', // Replace 'your_api_key' with your actual API key
+            },
+        })
             .then(response => {
-                if (response.ok) {
-                    alert("Thank you! Your form is submitted successfully.");
-                    window.location.reload();
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                if (Array.isArray(data)) {
+                    data.forEach(country => {
+                        var option = document.createElement("option");
+                        option.value = country.iso2;
+                        option.text = country.name;
+                        countryDropdown.appendChild(option);
+                    });
                 } else {
-                    throw new Error('Network response was not ok.');
+                    console.error('Countries data not found in CountryStateCity data:', data);
                 }
             })
-            .catch(error => console.error('Error!', error.message));
+            .catch(error => {
+                console.error('Error fetching countries:', error);
+            });
+    }
+
+    function populateStateDropdown() {
+        var countryDropdown = document.getElementById("countryDropdown");
+        var stateDropdown = document.getElementById("stateDropdown");
+
+        stateDropdown.innerHTML = '<option value="">Select a State</option>';
+
+        var selectedCountryCode = countryDropdown.value;
+
+        if (selectedCountryCode) {
+            fetch(`https://api.countrystatecity.in/v1/countries/${selectedCountryCode}/states`, {
+                headers: {
+                    'X-CSCAPI-KEY': 'NHhvOEcyWk50N2Vna3VFTE00bFp3MjFKR0ZEOUhkZlg4RTk1MlJlaA==', // Replace 'your_api_key' with your actual API key
+                },
+            })
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.json();
+                })
+                .then(stateData => {
+                    if (Array.isArray(stateData)) {
+                        stateData.forEach(state => {
+                            var option = document.createElement("option");
+                            option.value = state.iso2;
+                            option.text = state.name;
+                            stateDropdown.appendChild(option);
+                        });
+                    } else {
+                        console.error('States data not found in CountryStateCity data:', stateData);
+                    }
+                })
+                .catch(error => {
+                    console.error('Error fetching states:', error);
+                });
+        }
+    }
+
+    function populateCityDropdown() {
+        var countryDropdown = document.getElementById("countryDropdown");
+        var stateDropdown = document.getElementById("stateDropdown");
+        var cityDropdown = document.getElementById("cityDropdown");
+
+        cityDropdown.innerHTML = '<option value="">Select a City</option>';
+
+        var selectedCountryCode = countryDropdown.value;
+        var selectedStateCode = stateDropdown.value;
+
+        if (selectedCountryCode && selectedStateCode) {
+            fetch(`https://api.countrystatecity.in/v1/countries/${selectedCountryCode}/states/${selectedStateCode}/cities`, {
+                headers: {
+                    'X-CSCAPI-KEY': 'NHhvOEcyWk50N2Vna3VFTE00bFp3MjFKR0ZEOUhkZlg4RTk1MlJlaA==', // Replace 'your_api_key' with your actual API key
+                },
+            })
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.json();
+                })
+                .then(cityData => {
+                    if (Array.isArray(cityData)) {
+                        cityData.forEach(city => {
+                            var option = document.createElement("option");
+                            option.value = city.name;
+                            option.text = city.name;
+                            cityDropdown.appendChild(option);
+                        });
+                    } else {
+                        console.error('Cities data not found in CountryStateCity data:', cityData);
+                    }
+                })
+                .catch(error => {
+                    console.error('Error fetching cities:', error);
+                });
+        }
+    }
+
+    fetchCountries();
+
+    document.getElementById("countryDropdown").addEventListener('change', function () {
+        populateStateDropdown();
+    });
+
+    document.getElementById("stateDropdown").addEventListener('change', function () {
+        populateCityDropdown();
+    });
+
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxwDHpVrmeyQ2mdQQJN6LFI7c4BjkrguuBxifVK-9FHptgybj6dxpZMHtxULs6_tUyn/exec';
+    const form = document.forms['contact-form'];
+    document.forms['contact-form'].addEventListener('submit', function (e) {
+        e.preventDefault();
+
+        if (validateForm(this)) {
+            const formData = new FormData(this);
+
+            const selectedCountry = form.querySelector("select[name='Country']").options[form.querySelector("select[name='Country']").selectedIndex].text;
+            const selectedState = form.querySelector("select[name='State']").options[form.querySelector("select[name='State']").selectedIndex].text;
+            const selectedCity = form.querySelector("select[name='City']").options[form.querySelector("select[name='City']").selectedIndex].text;
+
+            formData.set('Country', selectedCountry);
+            formData.set('State', selectedState);
+            formData.set('City', selectedCity);
+
+            fetch(scriptURL, {
+                method: 'POST',
+                body: formData
+            })
+                .then(response => {
+                    if (response.ok) {
+                        alert("Thank you! Your form is submitted successfully.");
+                        window.location.reload();
+                    } else {
+                        throw new Error('Network response was not ok');
+                    }
+                })
+                .catch(error => console.error('Error!', error.message));
+        }
+    });
+
+    function validateForm(form) {
+        var name = form.querySelector("input[name='Name']").value;
+        var age = form.querySelector("input[name='Age']").value;
+        var phone = form.querySelector("input[name='Phone']").value;
+        var email = form.querySelector("input[name='Email']").value;
+        var country = form.querySelector("select[name='Country']").value;
+
+        // Basic validation
+        if (name === "" || age === "" || phone === "" || email === "" || country === "") {
+            alert("Please fill in all the required fields.");
+            return false;
+        }
+        
+        return true;
     }
 });
