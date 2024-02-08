@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Delicious;
+  src: url(./assets/fonts/Gotham-Light.otf);
+}
+
 html,
 body {
     min-height: 100%;
@@ -13,7 +18,7 @@ p {
     padding: 0;
     margin: 0;
     outline: none;
-    font-family: Roboto, Arial, sans-serif;
+    font-family: Delicious, Roboto, Arial, sans-serif;
     font-size: 16px;
     color: #ffffff;
     line-height: 22px;
@@ -40,12 +45,13 @@ h2 {
 }
 
 form {
-    width: 75%;
     padding: 50px;
     position: absolute;
-    top: 15%;
+    top: 0px;
+    align-items: center;
 }
-.logo{
+
+.logo {
     position: relative;
     padding: 50px;
     display: flex;
@@ -58,25 +64,25 @@ input,
 select {
     margin-bottom: 10px;
     border: 1px solid #ffffff;
-    border-radius: 3px;
-    color:#000000;
+    border-radius: 10px;
+    color: #000000;
 }
 
 input {
-    width: calc(100% - 10px);
+    width: 500px;
     padding: 5px;
+    padding-left: 15px;
 }
 
 select {
     width: 100%;
     padding: 7px 0;
-    color:#000000;
+    color: #000000;
 }
-
 
 .item input:hover,
 .item select:hover {
-    color:#000000;
+    color: #000000;
 }
 
 .item {
@@ -139,6 +145,12 @@ label.check:before {
     border: 1px solid #095484;
 }
 
+.signature {
+  margin-top: 50px;
+  font-size: 12px;
+  text-align: center;
+}
+
 input[type=checkbox]:checked+.check:before {
     background: #095484;
 }
@@ -172,7 +184,8 @@ button {
     padding: 10px;
     background: #B99855;
     font-size: 15px;
-    font-weight:500;
+    font-weight: 500;
+    font-family: Delicious, Roboto, Arial, sans-serif;
     color: #fff;
     cursor: pointer;
     margin-top: 50px;
@@ -180,21 +193,24 @@ button {
     outline: 0;
     border: 0;
     cursor: pointer;
-    will-change: box-shadow,transform;
-    background: radial-gradient( 100% 100% at 100% 0%, #ffde9c 0%, #B99855 100% );
-    box-shadow: 0px 2px 4px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px rgb(58 65 111 / 50%);
+    will-change: box-shadow, transform;
+    background: radial-gradient(100% 100% at 100% 0%, #ffde9c 0%, #B99855 100%);
+    box-shadow: 0px 2px 4px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%),
+        inset 0px -3px 0px rgb(58 65 111 / 50%);
     padding: 0 32px;
     border-radius: 25px;
 }
 
 button:hover {
-  transition: box-shadow 0.15s ease,transform 0.15s ease;
-  box-shadow: 0px 4px 8px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #ffffff;
-  transform: translateY(-2px);
+    transition: box-shadow 0.15s ease, transform 0.15s ease;
+    box-shadow: 0px 4px 8px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%),
+        inset 0px -3px 0px #ffffff;
+    transform: translateY(-2px);
 }
-button:active{
-  box-shadow: inset 0px 3px 7px #ffffff;
-  transform: translateY(2px);
+
+button:active {
+    box-shadow: inset 0px 3px 7px #ffffff;
+    transform: translateY(2px);
 }
 
 @media (min-width: 568px) {
@@ -216,6 +232,46 @@ button:active{
     }
 }
 
+/* Style for dropdowns */
+.select-container {
+    position: relative;
+    display: inline-block;
+}
+
+.select-dropdown {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+/* Style for options in dropdown */
+.select-options {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    display: none;
+    margin-top: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.select-options.active {
+    display: block;
+}
+
+.select-option {
+    padding: 8px;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.select-option:hover {
+    background-color: #f0f0f0;
+}
+
 .screen {
     position: fixed;
     top: 0;
@@ -225,39 +281,39 @@ button:active{
     background: #000;
     display: flex;
     align-items: center;
-  }
-  
-  .loader {
+}
+
+.loader {
     width: 100%;
     height: 15px;
     text-align: center;
-  }
-  
-  .dot {
+}
+
+.dot {
     position: relative;
     width: 15px;
     height: 15px;
     margin: 0 2px;
     display: inline-block;
-  }
-  
-  .dot:first-child:before {
+}
+
+.dot:first-child:before {
     animation-delay: 0ms;
-  }
-  
-  .dot:first-child:after {
+}
+
+.dot:first-child:after {
     animation-delay: 0ms;
-  }
-  
-  .dot:last-child:before {
+}
+
+.dot:last-child:before {
     animation-delay: 200ms;
-  }
-  
-  .dot:last-child:after {
+}
+
+.dot:last-child:after {
     animation-delay: 200ms;
-  }
-  
-  .dot:before{
+}
+
+.dot:before {
     content: "";
     position: absolute;
     left: 0;
@@ -266,14 +322,14 @@ button:active{
     background-color: rgb(171, 171, 171);
     animation-name: dotHover;
     animation-duration: 900ms;
-    animation-timing-function: cubic-bezier(.82,0,.26,1);
+    animation-timing-function: cubic-bezier(.82, 0, .26, 1);
     animation-iteration-count: infinite;
     animation-delay: 100ms;
     background: #B99855;
-    border-radius: 100%;  
-  }
-  
-  .dot:after {
+    border-radius: 100%;
+}
+
+.dot:after {
     content: "";
     position: absolute;
     z-index: -1;
@@ -287,34 +343,42 @@ button:active{
     border-radius: 100%;
     animation-name: dotShadow;
     animation-duration: 900ms;
-    animation-timing-function: cubic-bezier(.82,0,.26,1);
+    animation-timing-function: cubic-bezier(.82, 0, .26, 1);
     animation-iteration-count: infinite;
     animation-delay: 100ms;
-  }
-  
-  @keyframes dotShadow {
+}
+
+.awesomplete,
+.awesomplete ul {
+    color: #000000; /* Black text color */
+}
+
+@keyframes dotShadow {
     0% {
-      transform: scaleX(1);
+        transform: scaleX(1);
     }
+
     50% {
-      opacity: 0;
-      transform: scaleX(.8);
+        opacity: 0;
+        transform: scaleX(.8);
     }
+
     100% {
-      transform: scaleX(1);
+        transform: scaleX(1);
     }
-  }
-  
-  @keyframes dotHover {
+}
+
+@keyframes dotHover {
     0% {
-      top: 0px;
+        top: 0px;
     }
+
     50% {
-      top: -20px;
-      transform: scale(1.1);
+        top: -20px;
+        transform: scale(1.1);
     }
+
     100% {
-      top: 0;
+        top: 0;
     }
-  }
-  
+}
