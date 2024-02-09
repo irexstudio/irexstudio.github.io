@@ -7,48 +7,64 @@
             font-family: Delicious;
             src: url(./assets/fonts/Gotham-Light.otf);
         }
-
+        
         body {
             font-family: Delicious, Roboto, Arial, sans-serif;
             line-height: 1.6;
             background-color: #272829;
             margin: 0;
             padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
         }
-
+        
         .container {
             max-width: 600px;
-            margin: 0 auto;
             background-color: #000;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
             padding: 50px;
+            width: 100%;
+            box-sizing: border-box;
         }
-
+        
         .logo {
             text-align: center;
-            margin-bottom: 50px;
+            margin-bottom: 20px;
         }
-
+        
         img {
             max-width: 100%;
             height: auto;
         }
-
+        
         .content {
             margin-bottom: 20px;
             text-align: center;
             color: white;
         }
-
-        .access-code{
+        
+        .access-code {
             font-size: 24px;
         }
-
+        
         .signature {
-            margin-top: 50px;
+            margin-top: 20px;
             font-size: 12px;
             text-align: center;
+        }
+        
+        /* Media query for mobile responsiveness */
+        @media (max-width: 767px) {
+            .container {
+                padding: 20px;
+            }
+        
+            .signature {
+                margin-top: 10px;
+            }
         }
     </style>
 </head>
