@@ -8,14 +8,28 @@
         margin: 0;
     }
 
-    form {
+    input {
         width: 100%;
-        max-width: 400px; /* Adjust the maximum width based on your design */
+        max-width: 300px; /* Adjust the maximum width based on your design */
+        padding: 5px; /* Adjust padding as needed */
+        box-sizing: border-box;
     }
 
-    /* Add styles to center the form within the viewport */
+    form {
+        width: 100%;
+        max-width: 300px; /* Adjust the maximum width based on your design */
+    }
+
+    /* Adjust padding for the container */
     .container {
         padding: 20px;
+    }
+
+    /* Optional: Adjust padding for other elements like logo, signature, and button */
+    .logo,
+    .signature,
+    .btn-block {
+        padding: 20px; /* Adjust padding as needed */
     }
 }
 
@@ -90,7 +104,8 @@ select {
 }
 
 input {
-    width: 500px;
+    width: 400px;
+    align-items: center;
     padding: 5px;
     padding-left: 15px;
 }
