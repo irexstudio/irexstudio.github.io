@@ -54,23 +54,23 @@
                     {
                         "id": 1,        
                         "name": "Product Range Overview",
-                        "description": "1. MasterPact MTZ circuit breakers in three sizes : \n MTZ1 : From 630 to 1600 A  \n MTZ2 : From 800 to 4000 A \n MTZ3 : From 4000 to 6300 A \n \n2. Five performance levels : \n N1, H1, H2, H3, L1  \n Compliance to IEC 60947-2&3"
+                        "description": "MasterPact MTZ circuit breakers in three sizes : \n \u2022 MTZ1 : From 630 to 1600 A   \n \u2022 MTZ2 : From 800 to 4000 A \n \u2022 MTZ3 : From 4000 to 6300 A   \n Five performance levels : \n \u2022 N1, H1, H2, H3, L1   \n Compliance to IEC 60947-2&3"
                     },
                     {
                         "id": 2,        
                         "name": "Trip Unit Overview",
-                        "description": "1.MicroLogic X control units : 2.0 X : LI | 5.0 X : LSI | 6.0 X : LSIG | 7.0 X : LSIGV"
+                        "description": "MicroLogic X control units : \n 2.0 X : LI \n 5.0 X : LSI \n 6.0 X : LSIG \n 7.0 X : LSIGV"
                     },
                     {
                         "id": 3,        
-                        "name": "Intuitive Embedded HMI",
-                        "description": "Easy Fault Detection and Analysis with Micrologic X control unit equipped with intuitive. Coloured backlight HMI and Ready, Service, ERMS and Trip cause LEDs helps with fault diagnosis from a distance."
+                        "name": "Trip Unit Features",
+                        "description": " \u2022 Last 50 fault History with date, time, Type of fault and Value \n \u2022 In built RTC (Real Time Clock) \n\u2022 DUAL Setting and ERMS \n\u2022Color changing Display (O/L Pre-alarm, Tripping) \n\u2022 % Contact Wear Indication – LED alarm indication too \n \u2022 % life remaining indication for all the internal actuators viz. MX coil, MN coil, XF coil thru app. \n \u2022 QR code for easy access to all the important documents for installation and maintenance"
                     },
                     {
                         "id": 4,        
-                        "name": "Connectivity to maximize protection, measurement, Maintenance and Diagnostics",
-                        "description": "All the information processed and stored by MicroLogic X control unit is accessible by 1. Smartphones via Bluetooth and NFC communication and 2. External PC through a USB connection.         All MasterPact circuit breakers are equipped with a MicroLogic X control unit which can be upgraded 24/7 with 14 Optional downloadable digital modules."
-                    },
+                        "name": "Connectivity",
+                        "description": "All the information processed and stored by MicroLogic X control unit is accessible by \n \u2022 Smartphones via Bluetooth and NFC communication, and \n\u2022 External PC through a USB connection. \n All MasterPact circuit breakers are equipped with a MicroLogic X control unit which can be upgraded 24/7 with 14 Optional downloadable digital modules"
+                    },  
                     {
                         "id": 5,        
                         "name": "Communication",
@@ -79,7 +79,7 @@
                     {
                         "id": 6,        
                         "name": "Ready to close mechanism",
-                        "description": "Front mounted Accessories - Equipped with front mounted Motor Mechanism, MN/MX Coil and Continuous Shunt Coil. Breaker closes after checking the following conditions : 1. the circuit breaker is in the OFF position 2. the spring mechanism is charged 3. a maintained opening order is not present: i) MN (UV coil)  energised ii) Trip unit in reset position iii) remote tripping MX or MN iv)device not completely racked in v) device locked in OFF position vi)device interlocked with a second device, opening order is present"
+                        "description": "Front mounted Accessories - Equipped with front mounted Motor Mechanism, MN/MX Coil and Continuous Shunt Coil. Breaker closes after checking the following conditions : \n 1. the circuit breaker is in the OFF position \n 2. the spring mechanism is charged \n 3. a maintained opening order is not present: \n \u2022 i) MN (UV coil)  energised \n \u2022 ii) Trip unit in reset position \n \u2022 iii) remote tripping MX or MN \n \u2022 iv)device not completely racked in \n \u2022 v) device locked in OFF position \n \u2022 vi)device interlocked with a second device, opening order is present"
                     },
                     {
                         "id": 7,        
@@ -216,22 +216,214 @@
             },
             {
                 "name": "Thermal sensor",
-                "description": "Easergy TH110 is a wireless sensor that enables the continuous thermal condition monitoring of all the critical connections made on the field, such as: cables, withdrawable Circuit Breakers (CB) and busbar connections.",
+                "description": "Easergy TH110 is a wireless sensor that enables the continuous thermal condition monitoring of all the critical connections made on the field, such as: cables, withdrawable Circuit Breakers (CB)",
                 "features": [
                     {
                         "id": 1,        
-                        "name": "Product Range Overview",
-                        "description": "Compliance to Standard : IEC 61010:2010+A1:2016 (UL 61010 -1 2012)       1. 52kV Voltage Operations 2. 5000A Current Operations without exceeding the temperature rise limits"
+                        "name": "Unique Features",
+                        "description": "Compliance to Standard : IEC 61010:2010+A1:2016 (UL 61010 -1 2012) \n\u2022 52kV Voltage Operations \n\u2022 5000A Current Operations without exceeding the temperature rise limits \n\u2022 Easergy TH110 is self-powered by the network current. Temperature data is sent via Zigbee wireless communication to provide high performance and accurate thermal monitoring, can replace the need of periodic infrared scanning. \n \u2022 Zigbee Green power at 2.4 GHz according to IEEE 802.15.4"
+                    }
+                    
+                ],
+                "safety features": [],
+                "availability features":[],
+                "efficiency features":[],
+                "sustainability features":[],
+                "links":[
+                    {
+                        "name": "Brochure",
+                        "type": 0,
+                        "link": "https://www.se.com/in/en/product-range/64883-powerlogic-thermal-tag-th110/#overview"
+                    },
+                    {
+                        "name": "Video",
+                        "type": 1,
+                        "link": "https://youtu.be/zhQdq6oIRn8?si=aOSCyxuIsFmWnBWb"
+                    },                    
+                    {
+                        "name": "Others",
+                        "type": 3,
+                        "link": "www"
+                    }
+                ]
+            },
+            {
+                "name": "Climate sensor",
+                "description": "It is a wireless sensor that enables the continuous environmental condition monitoring of an enclosure (de-energised surface) such as a switchgear cabinet. The measurement features both the temperature of the surface in contact and the relative humidity.",
+                "features": [
+                    {
+                        "id": 1,        
+                        "name": "Unique Features",
+                        "description": "\u2022 Continuous environmental monitoring allows users of MV and LV switchgear to optimise predictive maintenance by avoiding conditions of deterioration due to moisture and pollution. \n \u2022It is battery-powered and allows simple fixing on magnetic metal surfaces thanks to its high-strength magnets.\n \u2022 The sensors contribute to EcoStruxure architectures, either on cloud or on premises to deliver a truly intelligent condition-based maintenance advisor for reduced risk, continuity of service, and maintenance optimisation."
+                    }                    
+                ],
+                "safety features": [],
+                "availability features":[],
+                "efficiency features":[],
+                "sustainability features":[],
+                "links":[
+                    {
+                        "name": "Brochure",
+                        "type": 0,
+                        "link": "https://download.schneider-electric.com/files?p_enDocType=Catalog&p_File_Name=DIA5ED2121214EN.pdf&p_Doc_Ref=DIA5ED2121214EN"
+                    },
+                    {
+                        "name": "Video",
+                        "type": 1,
+                        "link": "www"
+                    },                    
+                    {
+                        "name": "Others",
+                        "type": 3,
+                        "link": "https://www.se.com/uk/en/product/ZBRTT1/easergy-cl110-wireless-environmental-temperature-and-humidity-sensor/"
+                    }
+                ]
+            },
+            {
+                "name": "FE Logboook QR code",
+                "description": "The digital logbook is an easy to use collaborative tool that keeps record of important documentation and maintenance schedules. With EcoStruxure Power from Schneider Electric, you can offer your customers the cutting-edge, end-to-end digital solutions they are looking for to make their buildings more efficient and reliable. The digital logbook can be initiated by a panel builder using EcoStruxure Power Commission during switchboard construction.",
+                "features": [
+                    {
+                        "id": 1,        
+                        "name": "Feature 1",
+                        "description": "This is Feature 1"
                     },
                     {
                         "id": 2,        
-                        "name": "Key features",
-                        "description": "1. Easergy TH110 is self-powered by the network current. Temperature data is sent via Zigbee wireless communication to provide high performance and accurate thermal monitoring, can replace the need of periodic infrared scanning. 2. Zigbee Green power at 2.4 GHz according to IEEE 802.15.4"
+                        "name": "Feature 2",
+                        "description": "This is Feature 2"
                     },
                     {
                         "id": 3,        
                         "name": "Feature 3",
                         "description": "This is Feature 3"
+                    }
+                ],
+                "safety features": [],
+                "availability features":[],
+                "efficiency features":[],
+                "sustainability features":[],
+                "links":[
+                    {
+                        "name": "Brochure",
+                        "type": 0,
+                        "link": "www"
+                    }
+                ]
+            },
+            {
+                "name": "MasterPact NW",
+                "description": "MasterPact NW circuit breakers in two sizes : \n \u2022 NW1 : From 800 to 4000 A   \n \u2022 NW2 : From 4000 to 6300 A",
+                "features": [
+                    {
+                        "id": 1,        
+                        "name": "Trip Unit",
+                        "description": "\u2022 Mic A & E (2.0,5.0, 6.0,7.0) \n \u2022 Mic P(5.0,6.0,7.0) \n \u2022 Mic H (5.0,6.0,7.0)"
+                    },
+                    {
+                        "id": 2,        
+                        "name": "Craddle button and Indication",
+                        "description": "This is Feature 2"
+                    },
+                    {
+                        "id": 3,        
+                        "name": "Connectivity",
+                        "description": "This is Feature 3"
+                    },
+                    {
+                        "id": 4,        
+                        "name": "Rogowski CT",
+                        "description": "This is Feature 4"
+                    },
+                    {
+                        "id": 5,        
+                        "name": "Terminal Adaptors",
+                        "description": "This is Feature 5"
+                    },
+                    {
+                        "id": 6,        
+                        "name": "MN/MX Coil, MCH, SD Coils",
+                        "description": "Feature"
+                    }
+                ],
+                "safety features": [],
+                "availability features":[],
+                "efficiency features":[],
+                "sustainability features":[],
+                "links":[
+                    {
+                        "name": "Brochure",
+                        "type": 0,
+                        "link": "https://www.google.com/"
+                    },
+                    {
+                        "name": "Video",
+                        "type": 1,
+                        "link": "https://www.youtube.com/"
+                    },
+                    {
+                        "name": "PDF",
+                        "type": 2,
+                        "link": "https://amazon.com"
+                    },
+                    {
+                        "name": "Others",
+                        "type": 3,
+                        "link": "www"
+                    }
+                ]
+            },
+            {
+                "name": "HeatTag",
+                "description": "HeatTag is an innovative Smart sensor detects gas and particles in the switchboard and alerts before any smoke or insulator browning occurs.",
+                "features": [
+                    {
+                        "id": 1,        
+                        "name": "Unique Features",
+                        "description": "\u2022 HeatTag is neither a fire detector nor a smoke detector. Between 170°C and 200°C, typical LV cable-insulation materials, such as PVC / XLPE / EPR, are subject to invisible transformation. These abnormal conditions can be detected by HeatTag. \n \u2022 HeatTag detects and analyzes the different gases and particles in the air of the switchboard (14 gases measured, along with particles), applies a complex algorithm to select internal cable issues from other phenomena, and can distinguish abnormal situations that indicate a cable is overheating and sends an alarm. \n\u2022 Paired with Schneider Electric panel servers or gateways, HeatTag reports: Alerts, Air quality index, Temperature and humidity measurement, Self-diagnosis information"
+                    }
+                    
+                ],
+                "safety features": [],
+                "availability features":[],
+                "efficiency features":[],
+                "sustainability features":[],
+                "links":[
+                    {
+                        "name": "Brochure",
+                        "type": 0,
+                        "link": "https://download.schneider-electric.com/files?p_Doc_Ref=998-22770301_GMA&p_enDocType=Brochure&p_File_Name=998-22770301__HeatTag+Leaflet+for+Facility+Managers_Int_GMA.pdf"
+                    },
+                    {
+                        "name": "Video",
+                        "type": 1,
+                        "link": "https://youtu.be/SNFc1yqmyTg"
+                    },                    
+                    {
+                        "name": "Others",
+                        "type": 3,
+                        "link": "https://www.se.com/in/en/product-range/38501657-powerlogic-heattag/"
+                    }
+                ]
+            },
+            {
+                "name": "Ecostruxure Panel Server",
+                "description": "EcoStruxure Panel Server is the next generation of gateway, providing a seamless connection of wired or unwired smart IoT devices to your edge control software or advisor. It is a foundational enabler for Schneider Electric EcoStruxure solutions.",
+                "features": [
+                    {
+                        "id": 1,        
+                        "name": "All-in-one gateway",
+                        "description": "\u2022 Separates your OT network from your IT network \n\u2022 Wireless data concentrator \n\u2022 Modbus RS485 to Modbus TCP \n\u2022 Supports multiple Ethernet connections for serving information to edge control software and cloud applications"
+                    },
+                    {
+                        "id": 2,        
+                        "name": "Simple Commissioning",
+                        "description": "\u2022 EcoStruxure Power Commission software \n\u2022 Device auto-discovery \n\u2022 Generation of acceptance reports to validate gateway configuration \n\u2022 Commission via Bluetooth® or WiFi"
+                    },
+                    {
+                        "id": 3,        
+                        "name": "Intuitive operation",
+                        "description": "\u2022 User-friendly webpages offer first-level monitoring \n\u2022 Contextualized data and operational insights \n\u2022Simple alarm setup for email notification \n\u2022 Standardized IEC 62974-1 compliant datalogger and energy server"
                     }
                 ],
                 "safety features": [],
@@ -262,24 +454,15 @@
                 ]
             },
             {
-                "name": "Climate sensor",
-                "description": "Easergy CL110 is a wireless thermal and humidity sensor. It is designed to be used in indoor high and low voltage electrical distribution products or assemblies to monitor temperature and humidity changes on a de-energised surface. Four high strength magnets retain sensors to magnetic surfaces.",
+                "name": "IFE",
+                "description": "The interface ethernet (IFE) module allows you to view and streamline data from your low voltage electrical equipment assets and allows the display of status and energy data and alarm notification from each circuit breaker via TCP/ IP connectivity. The embedded web pages within the IFE module allow this data to be viewed on a web browser with a simple ethernet connection.",
                 "features": [
                     {
                         "id": 1,        
-                        "name": "Key Features",
-                        "description": "1. It is a wireless sensor that enables the continuous environmental condition monitoring of an enclosure (de-energised surface) such as a switchgear cabinet. The measurement features both the temperature of the surface in contact and the relative humidity. 2. Continuous environmental monitoring allows users of MV and LV switchgear to optimise predictive maintenance by avoiding conditions of deterioration due to moisture and pollution. 3. It is battery-powered and allows simple fixing on magnetic metal surfaces thanks to its high-strength magnets. 4. The sensors contribute to EcoStruxure architectures, either on cloud or on premises to deliver a truly intelligent condition-based maintenance advisor for reduced risk, continuity of service, and maintenance optimisation."
-                    },
-                    {
-                        "id": 2,        
-                        "name": "Feature 2",
-                        "description": "This is Feature 2"
-                    },
-                    {
-                        "id": 3,        
-                        "name": "Feature 3",
-                        "description": "This is Feature 3"
+                        "name": "",
+                        "description": ""
                     }
+                    
                 ],
                 "safety features": [],
                 "availability features":[],
