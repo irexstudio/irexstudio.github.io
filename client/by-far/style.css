@@ -6,6 +6,9 @@
         justify-content: center;
         height: 100vh;
         margin: 0;
+        background: url(./assets/background-image.jpg) no-repeat center center fixed; 
+        /* Adjust the path to your image */
+        background-size: cover;
     }
 
     input {
@@ -41,7 +44,9 @@
 html,
 body {
     min-height: 100%;
-    background-color: #000000;
+    background: url(./assets/background-image.jpg) no-repeat center center fixed; 
+    /* Adjust the path to your image */
+    background-size: cover;
 }
 
 body,
@@ -52,6 +57,7 @@ select,
 p {
     padding: 0;
     margin: 0;
+    margin-bottom: 3px;
     outline: none;
     font-family: Delicious, Roboto, Arial, sans-serif;
     font-size: 16px;
@@ -98,9 +104,10 @@ form {
 input,
 select {
     margin-bottom: 10px;
-    border: 1px solid #ffffff;
-    border-radius: 10px;
-    color: #000000;
+    background: #222222;
+    border: 2px solid #2F2F2F;
+    border-radius: 2px;
+    color: #fff;
 }
 
 input {
@@ -113,12 +120,12 @@ input {
 select {
     width: 100%;
     padding: 7px 0;
-    color: #000000;
+    color: #ffffff;
 }
 
 .item input:hover,
 .item select:hover {
-    color: #000000;
+    color: #f1f1f1;
 }
 
 .item {
@@ -134,7 +141,7 @@ input[type="date"]::-webkit-inner-spin-button {
 input[type="date"]::-webkit-calendar-picker-indicator {
     position: absolute;
     font-size: 20px;
-    color: #a9a9a9;
+    color: #f1f1f1;
 }
 
 .item i {
@@ -215,7 +222,7 @@ input[type=checkbox]:checked+label:after {
 }
 
 button {
-    width: 200px;
+    width: 160px;
     height: 50px;
     padding: 10px;
     background: #B99855;
@@ -227,26 +234,12 @@ button {
     margin-top: 50px;
     margin-bottom: 50px;
     outline: 0;
-    border: 0;
+    border: 1px solid #B99855;
     cursor: pointer;
     will-change: box-shadow, transform;
-    background: radial-gradient(100% 100% at 100% 0%, #ffde9c 0%, #B99855 100%);
-    box-shadow: 0px 2px 4px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%),
-        inset 0px -3px 0px rgb(58 65 111 / 50%);
+    background: #222222;
     padding: 0 32px;
-    border-radius: 25px;
-}
-
-button:hover {
-    transition: box-shadow 0.15s ease, transform 0.15s ease;
-    box-shadow: 0px 4px 8px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%),
-        inset 0px -3px 0px #ffffff;
-    transform: translateY(-2px);
-}
-
-button:active {
-    box-shadow: inset 0px 3px 7px #ffffff;
-    transform: translateY(2px);
+    border-radius: 2px;
 }
 
 @media (min-width: 568px) {
@@ -266,46 +259,6 @@ button:active {
     .city-item select {
         width: calc(50% - 8px);
     }
-}
-
-/* Style for dropdowns */
-.select-container {
-    position: relative;
-    display: inline-block;
-}
-
-.select-dropdown {
-    width: 100%;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    background-color: #fff;
-    cursor: pointer;
-}
-
-/* Style for options in dropdown */
-.select-options {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    z-index: 1;
-    display: none;
-    margin-top: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.select-options.active {
-    display: block;
-}
-
-.select-option {
-    padding: 8px;
-    cursor: pointer;
-    background-color: #fff;
-}
-
-.select-option:hover {
-    background-color: #f0f0f0;
 }
 
 .screen {
