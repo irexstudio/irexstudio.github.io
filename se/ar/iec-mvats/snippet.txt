@@ -1,0 +1,7 @@
+<model-viewer src="IEC_MVATS.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1" auto-rotate camera-orbit="-18.55deg 84.08deg 8.225m" field-of-view="30deg"><button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
